@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+.input-box {
+  padding: 6px;
+  width: 20%;
+  border: 2px solid #999;
+  border-radius: 4px;
+}
+
+.suggestion-container {
+  width: 20%;
+  margin-top: 5px;
+  border: 2px solid #999;
+  border-radius: 4px;
+}
+
+.suggestion-word {
+  padding: 10px 6px;
+  margin: 4px 6px;
+}
+.selected-suggestion-container {
+  display: flex;
+}
+.selected-suggestion {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #0f0;
+  opacity: 0.3;
+  padding: 1px;
+  margin: 5px;
+  border-radius: 20%;
+}
+
+.selected-suggestion-word {
+  padding: 5px 10px;
+  font-weight: 800;
+}
+
+.suggestion-close {
+  padding: 5px;
+  cursor: pointer;
+}
